@@ -1,0 +1,454 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700" rel="stylesheet">
+    <style>
+        table {
+            border-spacing: 16px 8px;
+            border-collapse: separate;
+        }
+
+        td {
+            padding: 0;
+            margin: 0;
+        }
+
+        h4 {
+            font-size: 34px;
+            line-height: 42px;
+            letter-spacing: -0.25px;
+            font-weight: 400;
+            margin: 0;
+            margin-bottom: 8px;
+            margin-top: 8px;
+        }
+
+        h6 {
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 32px;
+            margin: 0;
+        }
+
+        .body-1 {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .body-2 {
+            font-size: 14px;
+            line-height: 20px;
+            color: rgba(21, 22, 58, 0.87); /* rgba(21, 22, 58, 0.54);*/
+        }
+
+        .caption {
+            font-size: 12px;
+            line-height: 16px;
+            color: rgba(21, 22, 58, 0.54);
+        }
+
+        .block {
+            display: block;
+        }
+
+        .inline-block {
+            display: inline-block;
+        }
+
+        .w-full {
+            width: 100%;
+        }
+
+        .w-auto {
+            width: auto;
+        }
+
+        .text-black-87 {
+            color: #15163A;
+        }
+
+        .text-primary {
+            color: #369AF8;
+        }
+
+        .text-success {
+            color: #36D083;
+        }
+
+        .text-danger {
+            color: #FD8F82;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .font-bold {
+            font-weight: 700;
+        }
+
+        .underline {
+            text-decoration: underline;
+        }
+
+        .whitespace-nowrap {
+            white-space: nowrap;
+        }
+
+        .align-top {
+            vertical-align: top;
+        }
+
+        body {
+            font-family: 'Lato', Arial, Helvetica, sans-serif;
+            color: #15163A;
+            padding: 24px;
+            margin: 0;
+            background-color: #fff;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto 0 auto;
+        }
+
+        .spacer {
+            width: 100%;
+            height: 24px;
+        }
+
+        .spacer-8 {
+            width: 100%;
+            height: 8px;
+        }
+
+        .spacer-10 {
+            width: 100%;
+            height: 10px;
+        }
+
+        .divider {
+            width: 100%;
+            height: 1px;
+            background-color: rgba(21, 22, 58, 0.12);
+        }
+
+        .cost-summary {
+            display: inline-block;
+            width: 49%;
+            min-width: 180px;
+            vertical-align: top;
+            margin-bottom: 16px;
+        }
+
+        .empty-state-container {
+            padding: 16px;
+            background-color: rgb(250, 250, 250);/* rgba(132, 136, 155, 0.08);*/
+        }
+
+        .pill {
+            padding: 2px 8px;
+            border-radius: 20px;
+            color: #15163A;
+            font-size: 10px;
+            line-height: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            width: min-content;
+        }
+
+        .pill.critical {
+            background-color: #FD8F82;
+            color: #FFF;
+        }
+
+        .pill.major {
+            background-color: rgba(247, 194, 32, 0.38);
+        }
+
+        .pill.minor {
+            background-color: rgba(54, 154, 248, 0.38);
+        }
+
+        td.index {
+            width: 1px;
+        }
+
+        .logo {
+            height: 40px;
+            width: auto;
+        }
+
+        .preheader {
+            display: none !important;
+            visibility: hidden;
+            opacity: 0;
+            color: transparent;
+            height: 0;
+            width: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="preheader">Cost report of November, 2023</span>
+    <div>
+        <div class="container">
+
+            <div class="empty-state-container">
+                <div class="body-2 text-center">
+                    <p>This could be your weekly optimization report!</p> 
+                    <p>Our customers save on average 12.7% cloud cost in the first month. </br><span class="text-success">Get it for one month free!</span></p>
+                    <a href="https://console.cloud.google.com/marketplace/product/rbt-gcp-marketplace/rabbit" style="background-color:#369af8; border:0px solid #333333; border-color:#333333; border-radius:4px; border-width:0px; color:#ffffff; display:inline-block; font-size:14px; font-weight:700; letter-spacing:0px; line-height:36px; padding:6px 16px 6px 16px; text-align:center; text-decoration:none; border-style:solid;" target="_blank">SIGN UP</a>
+                </div>
+            </div>
+
+            <h4>GCP November cost report</h4>
+            <div class="body-2">Nov 1, 2023 - Nov 30, 2023</div>
+            <div class="spacer"></div>
+            <div class="divider"></div>
+            <div class="spacer"></div>
+
+            <div class="cost-summary">
+                <div class="body-2">Total cost of November</div>
+                <h6>$300K</h6>
+                <div class="body-2 text-danger">+$30K (10%)</div>
+            </div>
+            <div class="cost-summary">
+                <div class="body-2">Total monthly possible savings</div>
+                <h6>$59.1K</h6>
+                <div class="body-2 text-danger">+$38.35K
+                    (+64.9%)</div>
+            </div>
+
+            <div class="spacer-8"></div>
+
+            <a class="body-2 text-primary text-center underline w-full block"
+                href="https://followrabbit.ai/features">Dashboard</a>
+
+            <div class="spacer"></div>
+            <div class="divider"></div>
+            <div class="spacer"></div>
+
+            <div class="body-1 font-bold text-center block w-full">Top 5 Services with new recommendations</div>
+            <div class="spacer"></div>
+
+            <table class="w-full">
+                <thead>
+                    <tr>
+                        <th class="caption font-bold" align="left" colspan="2">Service</th>
+                        <th class="caption font-bold" align="right">Monthly possible savings</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="index body-2 align-top">1.</td>
+                        <td>
+                            <a class="body-2 text-primary underline" href="https://followrabbit.ai/features">Kubernetes</a>
+                            <span class="body-2">(20)</span>
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87">$17.73K</td>
+                    </tr>
+                    <tr>
+                        <td class="index body-2 align-top">2.</td>
+                        <td>
+                            <a class="body-2 text-primary underline" href="https://followrabbit.ai/features">Compute Engine</a>
+                            <span class="body-2">(13)</span>
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87">$14.77K</td>
+                    </tr>
+                    <tr>
+                        <td class="index body-2 align-top">3.</td>
+                        <td>
+                            <a class="body-2 text-primary underline" href="https://followrabbit.ai/features">BigQuery</a>
+                            <span class="body-2">(18)</span>
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87">$11.22K</td>
+                    </tr>
+                    <tr>
+                        <td class="index body-2 align-top">4.</td>
+                        <td>
+                            <a class="body-2 text-primary underline" href="https://followrabbit.ai/features">Cloud SQL</a>
+                            <span class="body-2">(12)</span>
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87">$8.86K</td>
+                    </tr>
+                    <tr>
+                        <td class="index body-2 align-top">5.</td>
+                        <td>
+                            <a class="body-2 text-primary underline" href="https://followrabbit.ai/features">Dataflow</a>
+                            <span class="body-2">(8)</span>
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87">$6.5K</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="spacer"></div>
+            <div class="divider"></div>
+            <div class="spacer"></div>
+
+            <div class="body-1 font-bold text-center block w-full">Top 5 Cost Differences</div>
+            <div class="spacer"></div>
+
+            <table class="w-full">
+                <thead>
+                    <tr>
+                        <th class="caption font-bold" align="left" colspan="2">Project - Service - SKU</th>
+                        <th class="caption font-bold" align="right">Cost &amp; Difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="index body-2 align-top">1.</td>
+                        <td class="caption text-black-87">
+                            prod-kubernetes,<br />
+                            Kubernetes Engine,<br />
+                            Regional Kubernetes Clusters
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87">
+                            $50k<br />
+                            <span class="text-danger">+$10K (20%)</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="index body-2 align-top">2.</td>
+                        <td class="caption text-black-87">
+                            prod-data-ingestion,<br />
+                            Cloud Dataflow,<br />
+                            Streaming data processed for Netherlands
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87">
+                            $48k<br />
+                            <span class="text-success">$9.8K (20.41%)</span>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="index body-2 align-top">3.</td>
+                        <td class="caption text-black-87">
+                            prod-monitoring,<br />
+                            Networking,<br />
+                            Networking Cloud Nat Data Processing
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87">
+                            $36.71k<br />
+                            <span class="text-danger">+$4.25K (11.76%)</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="index body-2 align-top">4.</td>
+                        <td class="caption text-black-87">
+                            prod-public-web-app,<br />
+                            Cloud Run,<br />
+                            CPU Allocation Time (Always-on CPU) in europe-west4
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87">
+                            $12.6K<br />
+                            <span class="text-danger">+$12.6 (New)</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="index body-2 align-top">5.</td>
+                        <td class="caption text-black-87">
+                            staging-data-central,<br />
+                            BigQuery,<br />
+                            Analysis
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87">
+                            $6K<br />
+                            <span class="text-danger">+6K (New)</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="spacer"></div>
+            <a class="body-2 text-primary text-center underline w-full block"
+                href="https://followrabbit.ai/features">SKU cost overview</a>
+
+
+            <div class="spacer"></div>
+            <div class="divider"></div>
+            <div class="spacer"></div>
+
+            <div class="body-1 font-bold text-center block w-full">Top 5 Anomalies by Cost Impact</div>
+            <div class="spacer"></div>
+
+            <table class="w-full">
+                <thead>
+                    <tr>
+                        <th class="caption font-bold" align="left" colspan="2">Project-<br />&amp; Service</th>
+                        <th class="caption font-bold" align="left">Severity</th>
+                        <th class="caption font-bold" align="right">Cost<br /> difference</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="index body-2 align-top">1.</td>
+                        <td class="caption text-black-87">
+                            <a class="body-2 text-primary underline" href="https://followrabbit.ai/features">prod-public-web-app</a>
+                            <br />
+                            Cloud SQL
+                        </td>
+                        <td>
+                            <div class="pill critical">CRITICAL</div>
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87 whitespace-nowrap">$1700</td>
+                    </tr>
+                    <tr>
+                        <td class="index body-2 align-top">2.</td>
+                        <td class="caption text-black-87">
+                            <a class="body-2 text-primary underline" href="https://followrabbit.ai/features">staging-kubernetes</a>
+                            <br />
+                            Kubernetes Engine
+                        </td>
+                        <td>
+                            <div class="pill major">MAJOR</div>
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87 whitespace-nowrap">$478</td>
+                    </tr>
+                    <tr>
+                        <td class="index body-2 align-top">3.</td>
+                        <td class="caption text-black-87">
+                            <a class="body-2 text-primary underline" href="https://followrabbit.ai/features">prod-data-central</a>
+                            <br />
+                            BigQuery
+                        </td>
+                        <td>
+                            <div class="pill minor">MINOR</div>
+                        </td>
+                        <td align="right" class="body-2 font-bold text-black-87 whitespace-nowrap">$12</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="spacer"></div>
+            <a class="body-2 text-primary text-center underline w-full block"
+                href="https://followrabbit.ai/features">All anomalies</a>
+
+            <div class="spacer"></div>
+            <div class="divider"></div>
+            <div class="spacer"></div>
+
+            
+
+            <div class="empty-state-container">
+                <div class="body-2 text-center">
+                    <p>This could be your weekly optimization report!</p> 
+                    <p>Our customers save on average 12.7% cloud cost in the first month. </br><span class="text-success">Get it for one month free!</span></p>
+                    <a href="https://console.cloud.google.com/marketplace/product/rbt-gcp-marketplace/rabbit" style="background-color:#369af8; border:0px solid #333333; border-color:#333333; border-radius:4px; border-width:0px; color:#ffffff; display:inline-block; font-size:14px; font-weight:700; letter-spacing:0px; line-height:36px; padding:6px 16px 6px 16px; text-align:center; text-decoration:none; border-style:solid;" target="_blank">SIGN UP</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
